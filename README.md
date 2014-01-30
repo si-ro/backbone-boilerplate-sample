@@ -1,6 +1,6 @@
 ![Boilerplate](https://github.com/backbone-boilerplate/backbone-boilerplate/raw/assets/header.png)
 
-[![Build Status](https://travis-ci.org/backbone-boilerplate/backbone-boilerplate.png?branch=master)](https://travis-ci.org/backbone-boilerplate/backbone-boilerplate) [![Coverage Status](https://coveralls.io/repos/backbone-boilerplate/backbone-boilerplate/badge.png)](https://coveralls.io/r/backbone-boilerplate/backbone-boilerplate) [![Dependency Status](https://gemnasium.com/backbone-boilerplate/backbone-boilerplate.png)](https://gemnasium.com/backbone-boilerplate/backbone-boilerplate)
+[![Build Status](https://travis-ci.org/backbone-boilerplate/backbone-boilerplate.png?branch=master)](https://travis-ci.org/backbone-boilerplate/backbone-boilerplate) [![Dependency Status](https://gemnasium.com/backbone-boilerplate/backbone-boilerplate.png)](https://gemnasium.com/backbone-boilerplate/backbone-boilerplate)
 
 Backbone Boilerplate
 ====================
@@ -55,9 +55,6 @@ good idea to update after fetching.
 # gain elevated privileges using something like `sudo`.
 npm install -g grunt-cli bower
 
-# Optionally install coveralls (integration is baked in with Travis CI).
-npm install -g coveralls
-
 # Install NPM dependencies.
 npm install
 
@@ -101,7 +98,8 @@ After either above command is run, code coverage reports will be available in
 the `test/coverage` folder.
 
 By default, the test runner is Mocha and Chai.  You can easily change this by
-editting the commented regions of the karma configuration in `Gruntfile.js`.
+editting the commented regions of the karma configuration in
+**build/tasks/karma.coffee**.
 
 ## License ##
 Copyright © 2014 Tim Branyen (@tbranyen)  

@@ -12,7 +12,6 @@
     "grunt-processhtml": "~0.3.0",
     "grunt-contrib-requirejs": "~0.4.1",
     "grunt-karma": "~0.6.2",
-    "grunt-karma-coveralls": "~2.3.0",
     "grunt-bbb-styles": "*",
     "grunt-bbb-server": "*",
     "karma-jasmine": "~0.1.0",
@@ -25,11 +24,10 @@
   "peerDependencies": {
     "generator-bbb": "*",
     "bower": "*",
-    "grunt-cli": "*",
-    "coveralls": "*"
+    "grunt-cli": "*"
   },
 
   "scripts": {
-    "test": "grunt test coveralls"
+    "test": "grunt test"
   }
 }
